@@ -1,0 +1,25 @@
+﻿# Python & Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+*.log
+
+# Secrets & Environment Variables
+.env
+*.env
+!*.env.example
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
