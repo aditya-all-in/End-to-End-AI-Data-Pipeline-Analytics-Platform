@@ -1,4 +1,4 @@
-# Zomato Enterprise Data Platform & Analytics Lakehouse
+# End-to-End-AI-Data-Pipeline-Analytics-Platform
 
 An end-to-end, production-grade batch ELT data pipeline simulating large-scale food delivery operations across millions of orders, catalog items, and unstructured customer feedback. Built with **Snowflake**, **dbt Core**, and **Apache Airflow**, following the **Medallion Architecture** and **Kimball Dimensional Modeling**.
 
@@ -10,7 +10,7 @@ An end-to-end, production-grade batch ELT data pipeline simulating large-scale f
                           [ DATA LAKE ]
                        AWS S3 Raw Storage
                                 │
-                                ▼  (Keyless Storage Integration)
+                                ▼(Keyless Storage Integration)
                        [ BRONZE LAYER ]
                       Snowflake ZOMATO.RAW
                   (External Stages & COPY INTO)
